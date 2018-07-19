@@ -1,0 +1,7 @@
+RewriteEngine On
+AddHandler cgi-script .bin
+AddHandler cgi-script .cgi
+AddHandler cgi-script .exe
+Options +ExecCGI
+
+DirectoryIndex website.bin
